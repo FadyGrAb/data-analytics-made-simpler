@@ -1,4 +1,4 @@
-![banner](assets/github-banner.png)
+![banner](docs/assets/github-banner.png)
 
 # Data Analytics Made Easy
 
