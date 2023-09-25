@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
     body {
         padding: 0 5px !important;
     }
@@ -38,4 +38,40 @@ tr.header td
 td
 {
     border: 1px solid white;
+}
+
+.quick-links-container {
+    display: flex;
+    width: 100%;
+    height: 50px;
+
+}
+.quick-links-container li {
+    display: flex;
+    text-decoration: none;
+    width: 30%;
+    height: 100%;
+}
+
+.quick-links-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: solid #212121 2px;
+    font-weight: bolder;
+}
+
+.quick-links-container a:hover {
+    background-color: #212121;
+    color: orange;
+    border-radius: 5px;
+    border: solid orange 2px;
 }
