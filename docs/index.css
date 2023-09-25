@@ -44,20 +44,21 @@ td
     display: flex;
     width: 100%;
     height: 50px;
-
+    padding: 0;
+    justify-content: center;
 }
 .quick-links-container li {
     display: flex;
     text-decoration: none;
     width: 30%;
     height: 100%;
+    margin: 0 10px;
 }
 
 .quick-links-container a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -67,6 +68,7 @@ td
     border-radius: 5px;
     border: solid #212121 2px;
     font-weight: bolder;
+    padding: 0 5px;
 }
 
 .quick-links-container a:hover {
