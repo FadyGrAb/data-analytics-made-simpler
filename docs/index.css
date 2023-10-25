@@ -103,3 +103,10 @@ td
 .update {
     margin-bottom: 10px;
 }
+
+.done {
+    color: rgb(1, 208, 1);
+    font-weight: bolder;
+    list-style-type: "✓ ";
+}
+
