@@ -106,7 +106,10 @@ td
 
 .done {
     color: rgb(1, 208, 1);
-    font-weight: bolder;
-    list-style-type: "✓ ";
+    list-style-type: "✅ ";
+}
+
+table li {
+    list-style-type: "⬛ ";
 }
 
